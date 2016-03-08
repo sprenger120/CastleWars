@@ -1,0 +1,17 @@
+name: CastleWars
+main: de.fastcrafter.castlewars.CastleWars
+version: 13
+depend: [BarAPI]
+softdepend: [Multiverse-Core]
+
+commands:
+    cwa:
+      description: Admin configuration command.
+      usage: /cwa help
+      permission:
+      permission-message:
+    cw:
+      description: CastleWars player commands.
+      usage: /cw help
+      permission:
+      permission-message:
